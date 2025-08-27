@@ -41,7 +41,7 @@ TRANSLATIONS = {
         'copy': 'Copy',
         'copied': 'Copied!',
         'download': 'Download',
-        'auto_login_notice': 'Auto-login enabled (You will not be logged out on page refresh).',
+        'auto_login_notice': '',
         'select_all': 'Select All',
         'clear_selection': 'Clear Selection'
     },
@@ -85,7 +85,7 @@ TRANSLATIONS = {
         'copy': 'कॉपी करें',
         'copied': 'कॉपी हो गया!',
         'download': 'डाउनलोड',
-        'auto_login_notice': 'ऑटो-लॉगिन सक्षम (पेज रीफ्रेश पर आप लॉगआउट नहीं होंगे)।',
+        'auto_login_notice': '',
         'select_all': 'सभी चुनें',
         'clear_selection': 'चयन साफ़ करें'
     },
@@ -129,7 +129,7 @@ TRANSLATIONS = {
         'copy': 'કૉપિ કરો',
         'copied': 'કૉપિ થઈ ગઈ!',
         'download': 'ડાઉનલોડ',
-        'auto_login_notice': 'ઑટો-લૉગિન સક્ષમ (પેજ રીફ્રેશ પર તમે લૉગઆઉટ થશો નહીં)।',
+        'auto_login_notice': '',
         'select_all': 'બધું પસંદ કરો',
         'clear_selection': 'પસંદગી સાફ કરો'
     }
