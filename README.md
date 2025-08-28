@@ -29,13 +29,24 @@ It helps farmers with crop analysis, disease detection, and smart suggestions in
 
 ```
 Agribot/
-│── agribot/               # Main project package
-│   ├── components/         # UI components (sidebar, etc.)
-│   ├── utils/              # Helper functions and constants
-│── reports/                # Generated reports
-│── streamlit_app.py        # Main entry point for Streamlit
-│── main.py                 # Alternative entry (logic runner)
-│── requirements.txt        # Dependencies
+│── main.py                  # Alternative entry point
+│── streamlit_app.py         # Main Streamlit entry point
+│── requirements.txt         # Python dependencies
+│── conversations.json       # Stores chat/conversation history
+│── structure.txt            # Notes on project structure
+│
+├───.streamlit/              # Streamlit configuration
+│   └── secrets.toml         # API keys / secrets
+│
+├───agribot/
+│   ├── components/          # UI Components (sidebar, navbar, etc.)
+│   ├── pages/               # Streamlit multi-page setup (about, analyze, login, history)
+│   ├── utils/               # Helpers (db, constants, translator, session, model)
+│   └── __init__.py
+│
+├───reports/                 # Auto-generated reports
+└───__pycache__/             # Compiled cache files
+
 ```
 
 ---
