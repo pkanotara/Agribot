@@ -49,24 +49,13 @@ git clone https://github.com/pkanotara/Agribot.git
 cd Agribot
 ```
 
-### 2. Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate it:
-
-* **Windows**: `venv\Scripts\activate`
-* **Mac/Linux**: `source venv/bin/activate`
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Add Google API Key
+### 3. Add Google API Key
 
 Agribot uses Google Generative AI.
 Set your API key as an environment variable:
@@ -77,7 +66,7 @@ set GOOGLE_API_KEY="your_api_key_here"      # Windows (cmd)
 $env:GOOGLE_API_KEY="your_api_key_here"     # Windows (PowerShell)
 ```
 
-### 5. Run the Application
+### 4. Run the Application
 
 ```bash
 streamlit run streamlit_app.py
